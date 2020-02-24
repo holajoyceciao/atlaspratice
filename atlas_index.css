@@ -46,6 +46,7 @@ button {
   border: none;
   border-radius: 10px;
 }
+
 .ff {
   font-family: "Ubuntu";
   margin-bottom: 20px;
@@ -54,6 +55,12 @@ button {
 }
 .cc {
   color: #e9486d;
+  cursor: pointer;
+}
+.cc:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+  color: #fff;
 }
 .oo {
   letter-spacing: 2px;
@@ -78,6 +85,11 @@ button {
   background-color: transparent;
   border: 1px solid white;
   color: white;
+  cursor: pointer;
+}
+
+.nbg:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .sc {
   position: fixed;
